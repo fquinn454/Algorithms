@@ -6,7 +6,7 @@ public class Fibonacci {
         int y = 1;
         int total = 0;
         int current = 0;
-        while (current<4000000){
+        while (current<=4000000){
             if(current % 2 == 0){
                total += current;
            }

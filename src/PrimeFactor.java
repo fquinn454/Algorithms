@@ -1,9 +1,9 @@
-//What is the largest prime factor of the number 600851475143
+//Find the largest prime factor of a number
 
 public class PrimeFactor {
 
     public static boolean isPrime(long number) {
-        for (int i = 2; i < number; i++) {
+        for (int i = 2; i < (number+1)/2; i++) {
             if (number % i == 0) {
                 return false;
             }
