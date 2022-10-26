@@ -4,6 +4,7 @@ public class Main {
         //System.out.println(Multiples.Multiples());
         //System.out.println(Fibonacci.Fibonacci());
         //System.out.println(PrimeFactor.largestPrime(600851475143L));
-        System.out.println(Pallindrome.largestPallindrome());
+        //System.out.println(Pallindrome.largestPallindrome());
+        //System.out.println(smallestMultiple.smallestMultiple());
     }
 }
