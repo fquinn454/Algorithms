@@ -6,5 +6,6 @@ public class Main {
         //System.out.println(PrimeFactor.largestPrime(600851475143L));
         //System.out.println(Pallindrome.largestPallindrome());
         //System.out.println(smallestMultiple.smallestMultiple());
+        //System.out.println(Squares.squareOfSum(100)-Squares.sumOfSquares(100));
     }
 }
