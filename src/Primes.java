@@ -1,6 +1,6 @@
 //Find the largest prime factor of a number
 
-public class PrimeFactor {
+public class Primes {
 
     public static boolean isPrime(long number) {
         for (int i = 2; i < (number+1)/2; i++) {
@@ -24,5 +24,17 @@ public class PrimeFactor {
             divisor++;
         }
         return 0;
+    }
+    //What is the 10 001st prime number?
+    public static int primeInTheSequence(int number){
+        int answer = 0;
+        int count = 0;
+        for(int i = 2; count <= number; i++){
+            if(isPrime(i)){
+                count++;
+                answer = i;
+            }
+        }
+        return answer;
     }
 }
