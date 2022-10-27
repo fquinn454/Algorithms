@@ -10,5 +10,8 @@ public class Main {
         //System.out.println(Primes.primeInTheSequence(10001));
         System.out.println(AdjacentDigits.getNumber());
         System.out.println(AdjacentDigits.getLargestProduct());
+
+
+
     }
 }
