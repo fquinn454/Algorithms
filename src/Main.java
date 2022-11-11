@@ -8,8 +8,9 @@ public class Main {
         //System.out.println(smallestMultiple.smallestMultiple());
         //System.out.println(Squares.squareOfSum(100)-Squares.sumOfSquares(100));
         //System.out.println(Primes.primeInTheSequence(10001));
-        System.out.println(AdjacentDigits.getNumber());
-        System.out.println(AdjacentDigits.getLargestProduct());
+        //System.out.println(AdjacentDigits.getNumber());
+        //System.out.println(AdjacentDigits.getLargestProduct());
+        System.out.println(PythagoreanTriples.productTriples());
 
 
 
