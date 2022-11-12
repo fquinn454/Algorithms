@@ -11,7 +11,8 @@ public class Main {
         //System.out.println(AdjacentDigits.getNumber());
         //System.out.println(AdjacentDigits.getLargestProduct());
         //System.out.println(PythagoreanTriples.productTriples());
-        System.out.println(sumOfPrimes.sumOfPrimes());
+        //System.out.println(sumOfPrimes.sumOfPrimes());
+        System.out.println(productInAGrid.sumOfGrid());
 
 
 

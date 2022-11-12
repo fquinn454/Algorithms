@@ -5,7 +5,6 @@ public class sumOfPrimes {
         for(long i = 2; i<2000000; i++){
             if(Primes.isPrime(i)){
                 sum+=i;
-                System.out.println(i);
             }
         }
         return sum;
