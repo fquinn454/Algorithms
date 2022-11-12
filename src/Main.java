@@ -10,7 +10,8 @@ public class Main {
         //System.out.println(Primes.primeInTheSequence(10001));
         //System.out.println(AdjacentDigits.getNumber());
         //System.out.println(AdjacentDigits.getLargestProduct());
-        System.out.println(PythagoreanTriples.productTriples());
+        //System.out.println(PythagoreanTriples.productTriples());
+        System.out.println(sumOfPrimes.sumOfPrimes());
 
 
 

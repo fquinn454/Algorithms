@@ -1,9 +1,11 @@
 //Find the largest prime factor of a number
 
+import static java.lang.Math.sqrt;
+
 public class Primes {
 
     public static boolean isPrime(long number) {
-        for (int i = 2; i < (number+1)/2; i++) {
+        for (int i = 2; i <= sqrt(number); ++i) {
             if (number % i == 0) {
                 return false;
             }
