@@ -23,13 +23,13 @@ public class TriangularNumbers {
     public static long triangularNumberCounter() {
         long number = 0;
         long plus = 1;
-
         while(factorCounter(number)<500){
             number += plus;
             plus++;
         }
         return number;
     }
+    //count the factors of a number
     public static int factorCounter(long number){
         int factorCount = 0;
         for(int i=1; i<=sqrt(number); i++){

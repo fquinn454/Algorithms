@@ -13,8 +13,8 @@ public class Main {
         //System.out.println(PythagoreanTriples.productTriples());
         //System.out.println(sumOfPrimes.sumOfPrimes());
         //System.out.println(productInAGrid.sumOfGrid());
-        System.out.println(TriangularNumbers.triangularNumberCounter());
-
+        //System.out.println(TriangularNumbers.triangularNumberCounter());
+        System.out.println(bigSum.getSum());
 
 
     }
